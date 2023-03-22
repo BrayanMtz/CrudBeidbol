@@ -26,6 +26,8 @@ CREATE TABLE Temporadas(
 );
 
 INSERT INTO Temporadas values (180028, "RCV", "Novatas", "Varonil", "Amistoso", 2023, 1)
+ALTER TABLE Temporadas ADD FOREIGN KEY(IDLiga) REFERENCES Ligas(IDLiga);
+
 
 CREATE TABLE Ligas(
   IDLiga varchar(6) PRIMARY KEY,

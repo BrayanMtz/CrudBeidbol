@@ -1,4 +1,4 @@
-<?php 
+<?php
     include("conexiones.php");
     $con=conectar();
     
@@ -19,26 +19,22 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="../js/Validaciones.js"></script>
-    
-
-
-</head>
-<style>
-    #resultado {
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    }
-    #resultado.ok {
-        background-color: green;
-    }
-    input:invalid { border-color: red; } input, input:valid { border-color: #ccc; }
+    <style>
+        #resultado {
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        }
+        #resultado.ok {
+            background-color: green;
+        }
+        input:invalid { border-color: red; } input, input:valid { border-color: #ccc; }
    
-</style>
+    </style>
+</head>
+
 
 <body>
-
-
     <div class="container" style="margin-top: 10px;" >
         <nav class="navbar navbar-expand-lg bg-body-tertiary" id="header">
             <div class="container-fluid">
@@ -158,8 +154,6 @@
                         }
                     ?>
                 </tbody>
-
-                
             </table>
         </div>
     </div>
